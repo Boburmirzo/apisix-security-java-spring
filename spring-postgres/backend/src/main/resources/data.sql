@@ -1,1 +1,1 @@
-INSERT INTO GREETINGS(name) values ('Apache APISIX');
+INSERT INTO GREETINGS(name) values ('Hello, Apache APISIX!');
