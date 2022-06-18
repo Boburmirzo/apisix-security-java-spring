@@ -19,4 +19,9 @@ public class GreetingController {
         Greeting apisixGreeting = repository.findById(1).orElse(new Greeting("Not Found 😕"));
         return apisixGreeting.getName();
     }
+
+    @GetMapping("/sample-file.csv")
+    public String getSampleFile() {
+        return "The sample file";
+    }
 }
